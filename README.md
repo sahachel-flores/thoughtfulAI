@@ -18,4 +18,8 @@ You must dispatch the packages in the following stacks:
 - **STANDARD**: standard packages (those that are not bulky or heavy) can be handled normally.
 - **SPECIAL**: packages that are either heavy or bulky can't be handled automatically.
 - **REJECTED**: packages that are **both** heavy and bulky are rejected.
-Implement the function sort(width, height, length, mass) (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go. 
+Implement the function sort(width, height, length, mass) (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go.
+
+### Test
+pip install pytest
+pytest -q
