@@ -1,7 +1,10 @@
 
 # Sort function implementation
 def sort(width, height, length, mass):
-  # creating bool varuable with description logic for bulky and heavy
+  # creating volume calculation
+  volume = width * height * length
+  
+  # creating bool variables
   bulky = volume >= 1_000_000 or width >= 150 or height >= 150 or length >= 150
   heavy = mass >= 20
 
