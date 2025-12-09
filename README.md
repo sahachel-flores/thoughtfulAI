@@ -21,5 +21,5 @@ You must dispatch the packages in the following stacks:
 Implement the function sort(width, height, length, mass) (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go.
 
 ### Test
-pip install pytest
-pytest -q
+- pip install pytest
+- pytest -q
