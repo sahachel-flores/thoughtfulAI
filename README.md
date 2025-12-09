@@ -20,6 +20,14 @@ You must dispatch the packages in the following stacks:
 - **REJECTED**: packages that are **both** heavy and bulky are rejected.
 Implement the function sort(width, height, length, mass) (units are centimeters for the dimensions and kilogram for the mass). This function must return a string: the name of the stack where the package should go.
 
-### Test
+### Run Sort Function
+- git clone https://github.com/sahachel-flores/thoughtfulAI.git
+- Open python shell by typing **python** in your command line
+- Import and call sort function
+  ```
+  from sort import sort
+  print(sort(10, 10, 10, 5))   # Example
+  ```
+### Running Tests
 - pip install pytest
 - pytest -q
